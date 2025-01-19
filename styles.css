@@ -5,6 +5,15 @@
   box-sizing: border-box;
   font-family: 'Arial', sans-serif;
 }
+/* Par défaut, le menu est masqué (ou hors de l'écran si c'est un menu mobile) */
+.menu {
+    display: none; /* ou positionnement hors écran pour un menu mobile */
+}
+
+/* Quand la classe 'show' est ajoutée, le menu devient visible */
+.menu.show {
+    display: block; /* ou un autre style comme 'transform' ou 'visibility' selon vos besoins */
+}
 
 /* Main Container */
 main {
