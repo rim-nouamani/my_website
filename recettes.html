@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recettes - Chhiwatna</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo"><img src="images/logo.png" alt="logo" width="50" height="50">CHHIWATNA</div>
+      <ul class="menu">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="recettes.html" class="active">Recettes</a></li>
+        <li><a href="planifier.html">Planifier un Repas</a></li>
+        <li><a href="partager.html">Partagez votre Recette</a></li>
+        <li><a href="apropos.html">À Propos</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="toggle" onclick="toggleMenu()">☰</div>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Nos Plats</h1>
+    <p>Découvrez une sélection de plats savoureux avec leurs recettes détaillées.</p>
+    <section class="recipes-grid">
+      <div class="recipe" id="8">
+        <img src="images/recipe3.jpg" alt="Tajine de Poulet" width="200" height="150">
+        <h3>Tajine de Poulet</h3>
+        <p>Un tajine tendre aux épices marocaines.</p>
+        <p><strong>Recette :</strong> Faites revenir du poulet avec des oignons, ajoutez des épices (curcuma, gingembre), des olives et des citrons confits, puis laissez mijoter à feu doux.</p>
+      </div>
+      <div class="recipe" id="2">
+        <img src="images/recipe2.jpg" alt="Pastilla" width="200" height="150">
+        <h3>Pastilla</h3>
+        <p>Une spécialité sucrée-salée inoubliable.</p>
+        <p><strong>Recette :</strong> Garnissez des feuilles de brick d'un mélange de poulet effiloché, amandes, œufs et cannelle. Enfournez jusqu'à ce que la pastilla soit dorée.</p>
+      </div>
+      <div class="recipe" id="3">
+        <img src="images/recipe4.jpg" alt="Harira" width="200" height="150">
+        <h3>Harira</h3>
+        <p>Une soupe épaisse pour réchauffer l'âme.</p>
+        <p><strong>Recette :</strong> Faites cuire des lentilles, pois chiches, tomates et céleri avec des épices. Ajoutez du vermicelle et servez chaud avec du pain.</p>
+      </div>
+      <div class="recipe" id="4">
+        <img src="images/recipe5.jpg" alt="Rfissa" width="200" height="150">
+        <h3>Rfissa</h3>
+        <p>Un plat familial traditionnel au poulet.</p>
+        <p><strong>Recette :</strong> Préparez un poulet mijoté aux oignons, fenugrec et épices, puis servez-le sur une base de msemen (crêpes marocaines).</p>
+      </div>
+      <div class="recipe" id="5">
+        <img src="images/recipe6.jpg" alt="Tanjia Marrakchia" width="200" height="150">
+        <h3>Tanjia Marrakchia</h3>
+        <p>Une spécialité savoureuse de Marrakech.</p>
+        <p><strong>Recette :</strong> Mettez de la viande d'agneau, des épices (cumin, gingembre) et du citron confit dans une jarre, et laissez cuire lentement dans des braises.</p>
+      </div>
+      <div class="recipe" id="6">
+        <img src="images/recipe7.jpg" alt="Mechoui" width="200" height="150">
+        <h3>Mechoui</h3>
+        <p>Un agneau rôti tendre et juteux.</p>
+        <p><strong>Recette :</strong> Frottez un agneau entier avec des épices, faites-le cuire lentement au four ou à la broche pour obtenir une viande fondante.</p>
+      </div>
+      <div class="recipe" id="7">
+        <img src="images/recipe8.jpg" alt="Tagliatelles aux Fruits de Mer" width="200" height="150">
+        <h3>Tagliatelles aux Fruits de Mer</h3>
+        <p>Une fusion de saveurs terre et mer.</p>
+        <p><strong>Recette :</strong> Faites revenir des crevettes, calamars et moules avec de l'ail, du persil et de l'huile d'olive. Mélangez avec des tagliatelles fraîches.</p>
+      </div>
+      <div class="recipe" id="1">
+        <img src="images/recipe1.jpg" alt="Couscous Marocain" width="200" height="150">
+        <h3>Couscous Marocain</h3>
+        <p>Un classique convivial et plein de saveurs.</p>
+        <p><strong>Recette :</strong> Faites cuire la semoule à la vapeur, préparez un bouillon aux légumes (carottes, navets, courgettes) et servez avec des morceaux de viande ou de poulet.</p>
+      </div>
+      <div class="recipe" id="9">
+        <img src="images/recipe9.jpg" alt="Poisson Grillé" width="200" height="150">
+        <h3>Poisson Grillé</h3>
+        <p>Un plat sain et délicieux à base de poisson.</p>
+        <p><strong>Recette :</strong> Marinez le poisson avec du citron, du persil, de l'ail et des épices, puis faites-le griller jusqu'à ce qu'il soit bien cuit.</p>
+      </div>
+      <div class="recipe" id="10">
+        <img src="images/recipe10.jpg" alt="Briouates" width="200" height="150">
+        <h3>Briouates</h3>
+        <p>Des feuilletés farcis pour toutes les occasions.</p>
+        <p><strong>Recette :</strong> Garnissez des feuilles de brick d'un mélange de viande hachée ou légumes épicés, puis pliez-les et faites-les frire jusqu'à ce qu'elles soient dorées.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Chhiwatna by RIM NOUAMANI. Tous droits réservés.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

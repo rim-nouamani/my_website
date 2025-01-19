@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planifier un Repas - Chhiwatna</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo"><img src="images/logo.png" alt="logo" width="50" height="50">CHHIWATNA</div>
+      <ul class="menu">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="recettes.html">Recettes</a></li>
+        <li><a href="planifier.html" class="active">Planifier un Repas</a></li>
+        <li><a href="partager.html">Partagez votre Recette</a></li>
+        <li><a href="apropos.html">À Propos</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="toggle" onclick="toggleMenu()">☰</div>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Planifier un Repas</h1>
+    <p>Organisez vos repas facilement grâce à nos outils de planification.</p>
+    <section class="recipes-grid">
+    <form>
+      <label for="meal-name">Repas :</label>
+      <select id="recipe-select" name="recipe-select">
+        <option value="Dejeuner">Dejeuner</option>
+        <option value="Dinner">Dinner</option>
+      </select>
+      <br>
+      <br>
+      <label for="date">Date :</label>
+      <input type="date" id="date" name="date">
+      <br>
+      <br>
+      <label for="time">Heure :</label>
+      <input type="time" id="time" name="time">
+      <br>
+      <br>
+      <label for="recipe-select">Sélectionnez une recette :</label>
+      <select id="recipe-select" name="recipe-select">
+        <option value="couscous">Couscous Marocain</option>
+        <option value="tajine-poulet">Tajine de Poulet</option>
+        <option value="pastilla">Pastilla</option>
+        <option value="harira">Harira</option>
+        <option value="rfissa">Rfissa</option>
+        <option value="tanjia">Tanjia Marrakchia</option>
+        <option value="mechoui">Mechoui</option>
+        <option value="tagliatelles-fruits-de-mer">Tagliatelles aux Fruits de Mer</option>
+        <option value="poisson-grille">Poisson Grillé</option>
+        <option value="briouates">Briouates</option>
+      </select>      
+      <br>
+      <br>
+      <label for="notes">Notes supplémentaires :</label>
+      <br><br>
+      <textarea id="notes" name="notes" placeholder="Ajoutez des instructions ou des besoins particuliers"></textarea>
+      <br><br>
+      <button type="submit" class="form-btn">Planifier le rappel</button>
+    </form>
+  </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Chhiwatna by RIM NOUAMANI. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>

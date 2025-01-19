@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Chhiwatna</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo"><img src="images/logo.png" alt="logo" width="50" height="50">CHHIWATNA</div>
+      <ul class="menu">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="recettes.html">Recettes</a></li>
+        <li><a href="planifier.html">Planifier un Repas</a></li>
+        <li><a href="partager.html">Partagez votre Recette</a></li>
+        <li><a href="apropos.html">À Propos</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="toggle" onclick="toggleMenu()">☰</div>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Contactez-nous</h1>
+    <p>Envoyez-nous vos suggestions, questions ou idées.</p>
+    <section class="recipes-grid">
+    <form action="#" method="post">
+      <label for="name">Nom :</label>
+      <input type="text" id="name" name="name" required>
+      <br><br>
+      <label for="email">Email :</label>
+      <input type="email" id="email" name="email" required>
+      <br><br>
+      <label for="message">Message :</label>
+      <br><br>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      <br><br>
+      <button type="submit" class="form-btn">Envoyer</button>
+    </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Chhiwatna by RIM NOUAMANI. Tous droits réservés.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
